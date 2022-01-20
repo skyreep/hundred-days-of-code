@@ -17,7 +17,7 @@ This is a basic to-do list web application built with Python & Flask. Upon compl
     
     Setup a basic index page route
     
-    Created the logic to add todo items to the todo list via the user-facing 
+    Created the logic to add todo items to the todo list via the user-facing form
     
     Attempted to add item removal functionality
     
