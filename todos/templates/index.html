@@ -12,22 +12,21 @@
         <li>{{ todo }}</li>
     {% endfor %}
     </ol>
-    <form action="" method="POST">
+    <form method="POST">
         {{ template_form.hidden_tag() }}
         <p>
-            
-            {{ template_form.todo.label }}
+            {{ template_form.todo.label }}: 
             {{ template_form.todo() }}
+            {{ template_form.add() }}
         </p>
-        <p>{{ template_form.add() }}</p>
     </form>
-    <form action="" method="POST">
+    <form method="POST">
+        {{ template_form2.hidden_tag() }}
         <p>
-            {{ template_form.removalnum.label }}
-            {{ template_form.removalnum() }}
+            {{ template_form2.removalnum.label }}: 
+            {{ template_form2.removalnum() }}
+            {{ template_form2.remove() }}
         </p>
-        <p>{{ template_form.remove() }}</p>
     </form>
-
 </body>
 </html>
