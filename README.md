@@ -1,5 +1,5 @@
 # My 100 Days of Code Challenge
-### A repository dedicated to tracking the projects I complete in 100 days
+### A repository dedicated to tracking the projects I complete in 100 days of code
 
 1. [ToDo App](todos/) (Part 1 - Day 1)
 
