@@ -3,20 +3,20 @@
 
 1. [ToDo App](todos/) (Part 1 - Day 1)
 
-  This is a basic to-do list web application built with Python & Flask. Upon completion it should allow users to add & remove items from their todo list.
+  - This is a basic to-do list web application built with Python & Flask. Upon completion it should allow users to add & remove items from their todo list.
 
-  - Today's Accomplishments:
+    - Today's Accomplishments:
       - Setup venv
       - Installed dependencies
       - Setup a basic index page route
       - Created the logic to add todo items to the todo list via the user-facing form
       - Added form validation
-  - For Tomorrow:
-    - Add styling 
-    - Add item removal functionality
+    - For Tomorrow:
+      - Add styling 
+      - Add item removal functionality
 
 2. [ToDo App](todos/) (Part 2 - Day 2)
-  - Today's Accomplishments:
-    - Added item removal functionality
-    - Added URL forwarding
+    - Today's Accomplishments:
+      - Added item removal functionality
+      - Added URL forwarding
  
