@@ -22,10 +22,10 @@ This is a basic to-do list web application built with Python & Flask. Upon compl
     Attempted to add item removal functionality
     
     Added form validation
+    
+    Added todo item removal functionality
 
 
   For tomorrow
-  
-    Finish troubleshooting item removal implementation
     
-    Add styling via Tailwind CSS
+    Add styling via CSS (maybe learn Tailwind?)
