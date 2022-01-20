@@ -14,3 +14,9 @@
   - For Tomorrow:
     - Add styling 
     - Add item removal functionality
+
+2. [ToDo App](todos/) (Part 2 - Day 2)
+  - Today's Accomplishments:
+    - Added item removal functionality
+    - Added URL forwarding
+ 
