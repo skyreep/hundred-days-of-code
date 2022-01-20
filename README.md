@@ -7,7 +7,7 @@ https://github.com/skyreep/hundred-days-of-code/tree/master/todos
 
 
 
-This is a basic to-do list web application built with Python & Flask. Upon completion it should allow users to add & remove items to their todo list.
+This is a basic to-do list web application built with Python & Flask. Upon completion it should allow users to add & remove items from their todo list.
 
   Today's Accomplishments:
   
