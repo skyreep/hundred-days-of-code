@@ -1,7 +1,7 @@
 # My 100 Days of Code Challenge
 ### A repository dedicated to tracking the projects I complete in 100 days
 
-1. ToDo App [Part 1 - Day 1]
+1. [ToDo App](todos/) (Part 1 - Day 1)
 
 https://github.com/skyreep/hundred-days-of-code/tree/master/todos
 
