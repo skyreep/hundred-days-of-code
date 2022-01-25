@@ -2,31 +2,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8ab41e15a6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href={{ url_for('static', filename='/global.css') }}>
         <title>ToDos</title> 
     </head>
 
 <body>
-    <h1>ToDos</h1>
-    <ol>
-    {% for todo in todos %}
-        <li>{{ todo }}</li>
-    {% endfor %}
-    </ol>
-    <form method="POST">
-        {{ template_form.hidden_tag() }}
-        <p>
-            {{ template_form.todo.label }}: 
-            {{ template_form.todo() }}
-            {{ template_form.add() }}
-        </p>
-    </form>
-    <form method="POST">
-        {{ template_form2.hidden_tag() }}
-        <p>
-            {{ template_form2.removalnum.label }}: 
-            {{ template_form2.removalnum() }}
-            {{ template_form2.remove() }}
-        </p>
-    </form>
+    <h1>TO-DO</h1>
+    <!-- List Container -->
+    <div class="list-container">
+        <h2>LIST</h2>
+        <div class="list-items">
+            <ol>
+            {% for todo in todos %}
+                <li>{{ todo }}</li>
+            {% endfor %}
+            </ol>
+        </div>
+
+        <!-- Form container -->
+        <div class="form-container">
+            <form method="POST">
+                {{ template_form.hidden_tag() }}
+                <p>
+                    {{ template_form.todo.label }}
+                    <br>
+                    {{ template_form.todo(class_="form-field", placeholder="  Description") }} 
+                    {{ template_form.add(class_="btn") }}
+                </p>
+            </form>
+            <form method="POST">
+                {{ template_form2.hidden_tag() }}
+                <p>
+                    {{ template_form2.removalnum.label }}
+                    <br>
+                    {{ template_form2.removalnum(class_="form-field", placeholder="  Number") }} 
+                    {{ template_form2.remove(class_="btn") }}
+                </p>
+            </form>
+        </div>
+        <!-- End Form Container -->
+    </div>
+    <!-- End List Container -->
+
 </body>
 </html>

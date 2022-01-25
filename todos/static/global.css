@@ -1,0 +1,87 @@
+body {
+    background-color: #deecf7;
+    margin: 0px;
+    color: #6312a6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    margin-top: 3vh !important;
+    margin-bottom: 3vh;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-block-start: 0em;
+    margin-block-end: 0.05em;
+}
+
+.list-container {
+    /* width: auto; */
+    width: 350px;
+    height: auto;
+    background-color: #4361EE;
+    border-radius: 15px;
+    padding: 3em;
+    padding-top: 1.25em;
+    border-radius: 30px;
+    background: #deecf7;
+    box-shadow:  41px 41px 82px #cedbe6,
+                 -41px -41px 82px #eefdff;
+    margin: auto;
+}
+
+.list-items {
+    text-align: left !important;
+    margin: auto;
+    max-width: fit-content;
+    padding-bottom: 1em;
+}
+
+label {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.form-field {
+    border-radius: 10px;
+    background: #deecf7;
+    box-shadow: inset 12px 12px 20px #cedbe6,
+            inset -12px -12px 20px #eefdff;
+    border-width: 0em !important;
+    height: 3em;
+    width: 20em;
+    color: #6312a6;
+    outline-width: 0em !important;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    /* margin-right: 1em; */
+}
+
+.form-field:focus {
+    background: #deecf7;
+    box-shadow:  5px 5px 10px #d1dee8,
+                 -5px -5px 10px #ebfaff;
+}
+
+.form-field::placeholder{
+    color: #c4c0c0;
+}
+
+.btn {
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    background: linear-gradient(145deg, #a448f0, #6c15b4);
+    border-width: 0em;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}

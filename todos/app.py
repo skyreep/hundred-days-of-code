@@ -3,18 +3,19 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, IntegerField
 from wtforms.validators import DataRequired
 
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecret'
 
 todos = ["Start #100DaysOfCode Challenge", "Learn Flask", "Setup venv", "Build a cool app"]
 
 class AddTodo(FlaskForm):
-    todo = StringField("Add a Todo", validators=[DataRequired()])
-    add = SubmitField("Add Todo")
+    todo = StringField("ADD", validators=[DataRequired()])
+    add = SubmitField("+")
 
 class RemoveTodo(FlaskForm):
-    removalnum = IntegerField("Remove a Todo", validators=[DataRequired()])
-    remove = SubmitField("Remove Todo")
+    removalnum = IntegerField("REMOVE", validators=[DataRequired()])
+    remove = SubmitField("-")
 
 
 @app.route('/', methods=["GET", "POST"])
